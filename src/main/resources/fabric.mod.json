@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tablist_logger",
+  "version": "${version}",
+  "name": "TabList Logger",
+  "description": "Gets the player names from the Tab List and logs them to a text file.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/BV.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.ByteVexer.tablist_logger.client.Tablist_loggerClient"
+    ],
+    "main": [
+      "me.ByteVexer.tablist_logger.Tablist_logger"
+    ]
+  },
+  "mixins": [
+    "tablist_logger.mixins.json",
+    {
+      "config": "tablist_logger.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
