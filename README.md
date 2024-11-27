@@ -7,6 +7,6 @@ A lightweight Fabric mod that logs the player names from the tablist into a text
 ## DISCLAIMER
 This repository is meant for community contribution / validity checking, not to compile the mod for personal use. Some assets have been stripped from the repository and will not be publicly available! If you still wish to compile the mod yourself without the licensed assets, you are free to do so anyway.
 
-## Play Blockgame
+## Play Arda Anarchy
 - Website: N/A
 - Server IP: `ArdaAnarchy.net`
