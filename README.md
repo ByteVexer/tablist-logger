@@ -1,4 +1,4 @@
-# tablist-logger
+# Tablist Logger
 A lightweight Fabric mod that logs the player names from the tablist into a text file.\
 *This mod runs on Minecraft 1.20.4 with Fabric only. The mod will be updated to newer versions along with the Arda Anarchy server.*  
 - [__Download the mod__](https://github.com/ByteVexer/tablist-logger/releases/latest)
